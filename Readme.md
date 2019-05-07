@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Polina Yermolenko](https://up.htmlacademy.ru/htmlcss/25/user/483731).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Рогатнев](https://htmlacademy.ru/profile/nikita_rogatnev).
 
 ---
 
