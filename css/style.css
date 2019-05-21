@@ -235,3 +235,43 @@ a {
 .slider-list li {
   background-color: #000000;
 }
+
+.popular-wrapper {
+  background-color: #f9f5f0;
+}
+
+.popular {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.popular-articles-list {
+  list-style: none;
+}
+
+.article-link {
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+}
+
+.old-price {
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.popular-brands-list {
+  list-style: none;
+}
