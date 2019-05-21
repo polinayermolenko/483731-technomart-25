@@ -350,3 +350,56 @@ a {
   line-height: 24px;
 }
 
+.footer-top {
+  background-color: #32425c;
+}
+
+.footer-nav-company {
+  list-style: none;
+}
+
+.nav-company-link {
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nav-company-link:hover,
+.nav-company-link:focus {
+  text-decoration: underline;
+}
+
+.nav-company-link:active {
+  color: #929caa;
+  text-decoration: none;
+}
+
+.footer-contacts {
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-phone {
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-nav-articles {
+  list-style: none;
+}
+
+.nav-articles-link {
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.nav-articles-link:hover,
+.nav-articles-link:focus {
+  text-decoration: underline;
+}
+
+.nav-articles-link:active {
+  color: #92856d;
+  text-decoration: none;
+}
+
+
