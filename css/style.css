@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+
+  font-family: 'Cuprum', 'PT Sans', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-style: 400;
+  text-transform: lowercase;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top-wrapper {
+  background-color: #293449;
+}
+
+.search-input {
+  background-color: inherit;
+
+  border: none;
+}
+
+.search-input:hover {
+  background-color: #212a3a;
+}
+
+.search-input:focus {
+  background-color: #ffffff;
+}
+
+.bookmarks-wrapper:hover {
+  background-color: #212a3a;
+}
+
+.bookmarks-wrapper:active {
+  background-color: #161d29;
+}
+
+.bookmarks {
+  color: #ffffff;
+}
+
+.bookmarks:active {
+  color: #8b8e94;
+}
+
+.cart-wrapper:hover {
+  background-color: #212a3a;
+}
+
+.cart-wrapper:active {
+  background-color: #161d29;
+}
+
+.cart {
+  color: #ffffff;
+}
+
+.cart:active {
+  color:#8b8e94;
+}
+
+.order-wrapper {
+  background-color: #63a63e;
+}
+
+.order-wrapper:hover {
+  background-color: #5fbb2d;
+}
+
+.order-wrapper:active {
+  background-color: #518534;
+}
+
+.order {
+  color: #ffffff;
+}
+
+.order:active {
+  color: #8b8e94;
+}
+
+
