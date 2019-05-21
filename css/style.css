@@ -128,3 +128,27 @@ a {
   color: #c5c5c5;
 }
 
+.main-navigation {
+  background-color: #32425c;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-link {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.site-navigation-link:hover,
+.site-navigation-link:focus {
+  background-color: #293449;
+}
+
+.site-navigation-link:active {
+  color: #7f858f;
+
+  background-color: #1d2739;
+}
