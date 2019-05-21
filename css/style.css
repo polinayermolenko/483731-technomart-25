@@ -12,6 +12,22 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  font-size: 14px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ca2c37;
+}
+
+.btn:active {
+  background-color: #ba2732;
+}
+
 .main-header {
   background-color: #f3f7f9;
 }
@@ -151,4 +167,71 @@ a {
   color: #7f858f;
 
   background-color: #1d2739;
+}
+
+.promo-list {
+  list-style: none;
+}
+
+.promo-item-materials {
+  background-color: #ffbf47;
+}
+
+.promo-item-tools {
+  background-color: #3bbce3;
+}
+
+.promo-item-technics {
+  background-color: #dc91d8;
+}
+
+.promo-item-discount {
+  background-color: #8ed78f;
+}
+
+.promo-item-delivery {
+  background-color: #ffc047;
+}
+
+.promo-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.promo-item-link {
+  font-size: 14px;
+  color: #ffffff;
+
+  background-color: #e5e5e5;
+}
+
+.promo-item-link:hover,
+.promo-item-link:focus {
+  background-color: #cccccc;
+}
+
+.promo-item-link:active {
+  background-color: #b2b2b2;
+}
+
+.slider-list {
+  list-style: none;
+}
+
+.slider-title {
+  font-size:36px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.slider-slogan {
+  line-height: 24px;
+  color: #ffffff;
+}
+/*временный фон*/
+.slider-list li {
+  background-color: #000000;
 }
