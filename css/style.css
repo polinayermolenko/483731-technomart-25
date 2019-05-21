@@ -17,6 +17,7 @@ a {
   color: #ffffff;
 
   background-color: #ee3643;
+  border: none;
 }
 
 .btn:hover,
@@ -240,7 +241,7 @@ a {
   background-color: #f9f5f0;
 }
 
-.popular {
+.popular-title {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -275,3 +276,51 @@ a {
 .popular-brands-list {
   list-style: none;
 }
+
+.services-wrapper {
+  background-color: #f4f8f9;
+}
+
+.services-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-option {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+
+  background-color: #32425c;
+  border: none;
+}
+
+.services-option-current {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
+.services-option:hover,
+.services-option:focus {
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.service-title {
+  font-size: 36px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.services-description {
+  font-size: 13px;
+  line-height: 24px;
+}
+
