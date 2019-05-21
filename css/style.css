@@ -319,7 +319,33 @@ a {
   color: #32425c;
 }
 
-.services-description {
+.services-intro {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.company-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.company-intro {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.partners-item {
+  line-height: 20px;
+}
+
+.contacts-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.contacts-intro {
   font-size: 13px;
   line-height: 24px;
 }
