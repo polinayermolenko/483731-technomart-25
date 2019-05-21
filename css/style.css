@@ -5,7 +5,6 @@ body {
   font-size: 18px;
   line-height: 18px;
   font-style: 400;
-  text-transform: lowercase;
   color: #000000;
 }
 
@@ -13,12 +12,18 @@ a {
   text-decoration: none;
 }
 
+.main-header {
+  background-color: #f3f7f9;
+}
+
 .header-top-wrapper {
+  font-size: 17px;
+
   background-color: #293449;
 }
 
 .search-input {
-  background-color: inherit;
+  background-color: #293449;
 
   border: none;
 }
@@ -83,4 +88,43 @@ a {
   color: #8b8e94;
 }
 
+.index-title {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: #ee434f;
+}
+
+.header-phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.header-address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.user-navigation-link {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.user-navigation-link:hover,
+.user-navigation-link:focus {
+  color: #ee3643;
+}
+
+.user-navigation-link:focus {
+  color: #c5c5c5;
+}
 
