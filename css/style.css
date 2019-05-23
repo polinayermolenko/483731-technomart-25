@@ -417,31 +417,6 @@ a {
   border: 1px solid #dee3e4;
 }
 
-::-webkit-input-placeholder {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #d7d7d7;
-}
-::-moz-placeholder {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #d7d7d7;
-}
-:-ms-input-placeholder {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #d7d7d7;
-}
-:-moz-placeholder {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #d7d7d7;
-}
-
 .btn-wrapper {
   background-color: #f4f4f4;
 }
