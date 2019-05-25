@@ -11,27 +11,32 @@
     <!-- шапка сайта -->
     <header class="main-header">
       <div class="header-top-wrapper">
-        <a class="main-logo">
-          <img src="img/main-logo-header.png" width="220" height="47" alt="Логотип интернет-магазина «Техномарт»">
-        </a>
-        <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-          <input class="search-input" type="text" name="search" id="search" placeholder="Поиск:">
-          <label class="visually-hidden" for="search">Поиск</label>
-          <button class="search-icon" type="submit">Поиск</button>
-        </form>
+        <div class="top-wrapper container">
+          <a class="main-logo">
+            <img src="img/main-logo-header.png" width="220" height="47" alt="Логотип интернет-магазина «Техномарт»">
+          </a>
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+            <input class="search-input" type="text" name="search" id="search" placeholder="Поиск:">
+            <label class="visually-hidden" for="search">Поиск</label>
+            <button class="search-icon" type="submit">Поиск</button>
+          </form>
           <a class="bookmarks" href="bookmarks.html">Закладки:</a>
           <a class="cart" href="cart.html">Корзина:</a>
           <a class="order" href="order.html">Оформить заказ</a>
+          </div>
       </div>
-      <h1 class="title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <div class="header-contacts">
-        <a class="header-phone" href="tel:8125550505">+7 (812) 555-05-55</a>
-        <p class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <div class="container">
+      <div class="header-center-wrapper">
+        <h1 class="title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+        <div class="header-contacts">
+          <a class="header-phone" href="tel:8125550505">+7 (812) 555-05-55</a>
+          <p class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        </div>
+        <ul class="user-navigation">
+          <li><a class="user-navigation-link login-link" href="login.html">Войти</a></li>
+          <li><a class="user-navigation-link registration" href="registration.html">Регистрация</a></li>
+        </ul>
       </div>
-      <ul class="user-navigation">
-        <li><a class="user-navigation-link login-link" href="login.html">Войти</a></li>
-        <li><a class="user-navigation-link registration" href="registration.html">Регистрация</a></li>
-      </ul>
       <nav class="main-navigation">
         <ul class="site-navigation">
           <li><a class="site-navigation-link" href="main.html">Главная</a></li>
@@ -43,6 +48,7 @@
           <li><a class="site-navigation-link" href="contacts.html">Контакты</a></li>
         </ul>
       </nav>
+      </div>
     </header>
     <!-- основная часть сайта -->
     <main class="container">
@@ -104,32 +110,32 @@
         <ul class="popular-articles-list">
           <li>
             <article class="catalog-article">
-                <h3><a class="article-link" href="#">Перфоратор BOSH BFG 9000</a></h3>
-                <img src="img/product-1.jpg" width="184" height="164" alt="Перфоратор BOSH BFG 9000">
+              <h3><a class="article-link" href="#">Перфоратор BOSH BFG 9000</a></h3>
+              <img src="img/product-1.jpg" width="184" height="164" alt="Перфоратор BOSH BFG 9000">
               <span class="old-price">32500 P.</span>
               <span class="price">25500 P.</span>
             </article>
           </li>
           <li>
             <article class="catalog-article">
-                <h3><a class="article-link" href="#">Перфоратор BOSH BFG 6000</a></h3>
-                <img src="img/product-2.jpg" width="127" height="112" alt="Перфоратор BOSH BFG 6000">
+              <h3><a class="article-link" href="#">Перфоратор BOSH BFG 6000</a></h3>
+              <img src="img/product-2.jpg" width="127" height="112" alt="Перфоратор BOSH BFG 6000">
               <span class="old-price">22500 P.</span>
               <span class="price">15500P.</span>
             </article>
           </li>
           <li>
             <article class="catalog-article">
-                <h3><a class="article-link" href="#">Перфоратор BOSH BFG 3000</a></h3>
-                <img src="img/product-3.jpg" width="144" height="128" alt="Перфоратор BOSH BFG 3000">
+              <h3><a class="article-link" href="#">Перфоратор BOSH BFG 3000</a></h3>
+              <img src="img/product-3.jpg" width="144" height="128" alt="Перфоратор BOSH BFG 3000">
               <span class="old-price">30500 P.</span>
               <span class="price">25500 P.</span>
             </article>
           </li>
           <li>
             <article class="catalog-article">
-                <h3><a class="article-link" href="#">Перфоратор BOSH BFG 2000</a></h3>
-                <img src="img/product-2.jpg" width="127" height="112" alt="Перфоратор BOSH BFG 2000">
+              <h3><a class="article-link" href="#">Перфоратор BOSH BFG 2000</a></h3>
+              <img src="img/product-2.jpg" width="127" height="112" alt="Перфоратор BOSH BFG 2000">
               <span class="price">12500 P.</span>
               <span class="new">Новинка</span>
             </article>
@@ -291,7 +297,7 @@
             <label for="letter">Текст письма:</label>
             <textarea class="contacts-input" name="letter" id="letter" placeholder="В свободной форме"></textarea>
           </p>
-            <button class="btn" type="submit">Отправить</button>
+          <button class="btn" type="submit">Отправить</button>
         </form>
         <button class="modal-close">Закрыть</button>
       </section>

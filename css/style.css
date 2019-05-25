@@ -673,3 +673,42 @@ a {
   background-color: #ffffff;
   border: none;
 }
+/*Сеточные стили шапки*/
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.header-top-wrapper {
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.top-wrapper {
+  display: flex;
+}
+
+.header-center-wrapper {
+  width: 940px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.main-navigation {
+  width: 940px;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 60px;
+}
