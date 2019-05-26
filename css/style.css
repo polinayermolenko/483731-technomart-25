@@ -675,16 +675,17 @@ a {
   background-color: #ffffff;
   border: none;
 }
-/*Сеточные стили шапки*/
+/*СЕТОЧНЫЕ СТИЛИ ГЛАВНОЙ СТРАНИЦЫ*/
+
+/*сетка шапки*/
 
 .main-header {
   display: flex;
   flex-direction: column;
-  margin-bottom: 60px;
 }
 
 .header-top-wrapper {
-  width: 100%;
+  /*width: 100%;*/
   margin-bottom: 45px;
 }
 
@@ -694,7 +695,7 @@ a {
   padding: 0 10px;
 }
 
-.top-wrapper {
+.top-wrapper-container {
   display: flex;
 }
 
@@ -715,6 +716,7 @@ a {
   margin-bottom: 60px;
 }
 
+/*сетка промо-блока*/
 .promo {
   display: flex;
   justify-content: space-between;
@@ -729,6 +731,7 @@ a {
   width: 300px;
 }
 
+/*сетка блока популярных товаров*/
 .popular-articles {
   margin-bottom: 85px;
 }
@@ -750,6 +753,7 @@ a {
   width: 220px;
 }
 
+/*сетка блока популярных брендов*/
 .popular-brands {
   margin-bottom: 85px;
 }
@@ -766,12 +770,23 @@ a {
   width: 220px;
 }
 
+/*сетка блока сервисов*/
 .services {
   display: flex;
   flex-direction: column;
   margin-bottom: 82px;
 }
 
+/*временно скрыть*/
+.guarantee-wrapper {
+  display: none;
+}
+
+.credit-wrapper {
+  display: none;
+}
+
+/*сетка блока о компании*/
 .index-columns {
   display: flex;
   justify-content: space-between;
@@ -785,6 +800,7 @@ a {
   width: 310px;
 }
 
+/*сетка подвала*/
 .main-footer {
   display: flex;
   flex-direction: column;
@@ -801,4 +817,54 @@ a {
 
 .footer-bottom-container {
   display: flex;
+
+}
+
+.modal {
+  display: none;
+}
+
+/*СЕТОЧНЫЕ СТИЛИ ВНУТРЕННЕЙ СТРАНИЦЫ*/
+
+/*сетка для хлебных крошек*/
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-title {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 220px;
+}
+
+.catalog {
+  width: 700px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item {
+  width: 220px;
+}
+
+.pagination-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
