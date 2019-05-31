@@ -14,6 +14,22 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .btn {
   font-size: 14px;
   text-transform: uppercase;
@@ -33,16 +49,62 @@ a {
 }
 
 .main-header {
+  display: flex;
+  flex-direction: column;
+
   background-color: #f3f7f9;
 }
 
+/*стили для верхней части шапки*/
 .header-top-wrapper {
   font-size: 17px;
 
   background-color: #293449;
 }
 
+.top-wrapper-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main-header-logo img {
+  position: relative;
+
+  width:110px;
+  height: 18px;
+  padding-top: 13px;
+  padding-right: 55px;
+  padding-bottom: 9px;
+  padding-left: 55px;
+
+}
+
+.main-header-logo::before {
+  content: "";
+
+  position: absolute;
+  width: 220px;
+  height: 47px;
+
+  background-color: #ee3643;
+  box-shadow: ;
+}
+
+.main-header-logo:hover::before,
+.main-header-logo:focus::before {
+  background-color: #ca2c37;
+}
+
+.main-header-logo:active::before {
+  background-color: #ba2732;
+}
+
 .search-input {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+
   background-color: #293449;
 
   border: none;
@@ -56,11 +118,60 @@ a {
   background-color: #ffffff;
 }
 
-.bookmarks,
-.cart {
+.bookmarks {
+  position: relative;
+
+  padding-top: 12px;
+  padding-right: 28px;
+  padding-bottom: 12px;
+  padding-left: 43px;
+
   color: #ffffff;
 
   background-color: #293449;
+}
+
+.bookmarks::before {
+  content: "";
+
+  position: absolute;
+  top: 12px;
+  left: 17px;
+
+  width: 14px;
+  height: 16px;
+
+  background-image: url(../img/icon-bookmark.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.cart {
+  position: relative;
+
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.cart::before {
+  content: "";
+
+  position: absolute;
+  top: 12px;
+  left: 18px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url(../img/icon-cart.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .bookmarks:hover,
@@ -70,12 +181,22 @@ a {
 
 .bookmarks:active,
 .cart:active {
-  color: #8b8e94;
+  color: rgba(255, 255, 255, 0.6);
 
   background-color: #161d29;
 }
 
+.bookmarks:active::before,
+.cart:active::before {
+  opacity: 0.6;
+}
+
 .order {
+  padding-top: 12px;
+  padding-right: 23px;
+  padding-bottom: 12px;
+  padding-left: 21px;
+
   color: #ffffff;
 
   background-color: #63a63e;
@@ -679,15 +800,6 @@ a {
 
 /*сетка шапки*/
 
-.main-header {
-  display: flex;
-  flex-direction: column;
-}
-
-.header-top-wrapper {
-  /*width: 100%;*/
-  margin-bottom: 45px;
-}
 
 .container {
   width: 940px;
@@ -695,9 +807,7 @@ a {
   padding: 0 10px;
 }
 
-.top-wrapper-container {
-  display: flex;
-}
+
 
 .header-center-wrapper {
   width: 940px;
@@ -868,3 +978,6 @@ a {
   margin: 0;
   padding: 0;
 }
+
+/*стили для микросеток*/
+
