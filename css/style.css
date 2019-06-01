@@ -75,9 +75,8 @@ a {
   height: 18px;
   padding-top: 13px;
   padding-right: 55px;
-  padding-bottom: 9px;
+  padding-bottom: 7px;
   padding-left: 55px;
-
 }
 
 .main-header-logo::before {
@@ -102,7 +101,7 @@ a {
 
 .search-input {
   padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
   padding-left: 50px;
 
   background-color: #293449;
@@ -123,7 +122,7 @@ a {
 
   padding-top: 12px;
   padding-right: 28px;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
   padding-left: 43px;
 
   color: #ffffff;
@@ -151,7 +150,7 @@ a {
 
   padding-top: 12px;
   padding-right: 32px;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
   padding-left: 50px;
 
   color: #ffffff;
@@ -194,7 +193,7 @@ a {
 .order {
   padding-top: 12px;
   padding-right: 23px;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
   padding-left: 21px;
 
   color: #ffffff;
@@ -212,32 +211,85 @@ a {
   background-color: #518534;
 }
 
+/*стили для средней части шапки*/
+.header-center-wrapper {
+  width: 940px;
+  display: flex;
+}
+
 .title {
+  /*width: 200px;*/
+  margin: 0;
+  padding: 0;
+  margin-top: 49px;
+  margin-left: 52px;
+
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
   line-height: 23px;
   color: #ee434f;
+}
 
+.header-contacts {
+  position: relative;
+  /*width: 270px;*/
+
+  margin-top: 46px;
+  margin-left: 71px;
 }
 
 .header-phone {
+  display: block;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 8px;
+  padding-left: 71px;
+
   font-size: 21px;
   line-height: 21px;
   color: #ee3643;
+
+  border: 3px solid #ffffff;
+}
+
+.header-phone::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 15px;
+
+  width: 19px;
+  height: 19px;
+
+  background-image: url(../img/icon-phone.svg);
 }
 
 .header-address {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+  padding-left: 10px;
+
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
 }
 
 .user-navigation {
+  display: flex;
+  /*width: 281px;*/
+  margin: 0;
+  margin-top: 46px;
+  margin-left: 69px;
+  padding: 0;
+
   list-style: none;
 }
 
 .user-navigation-link {
+  display: block;
+
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -251,7 +303,35 @@ a {
 }
 
 .user-navigation-link:active {
-  color: #c5c5c5;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.login-link {
+  position: relative;
+
+  margin-right: 10px;
+  padding-top: 12px;
+  padding-right: 26px;
+  padding-bottom: 12px;
+  padding-left: 48px;
+}
+
+.login-link-icon {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+
+.login-link-icon:hover path,
+.login-link-icon:focus path {
+  fill: #32425c;
+}
+
+.registration-link {
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 23px;
 }
 
 .main-navigation {
@@ -809,11 +889,7 @@ a {
 
 
 
-.header-center-wrapper {
-  width: 940px;
-  display: flex;
-  margin-bottom: 40px;
-}
+
 
 .main-navigation {
   width: 940px;
