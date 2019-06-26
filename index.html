@@ -5,7 +5,7 @@
     <title>Интернет-магазин «Техномарт»</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
     <header class="main-header">
@@ -29,9 +29,9 @@
           </a>
           <a class="cart" href="#">
             <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
-              <circle fill="rgba(255, 255, 255, 0.3" cx="4.5" cy="13.5" r="1.5" />
-              <circle fill="rgba(255, 255, 255, 0.3" cx="12.5" cy="13.5" r="1.5" />
-              <path fill="rgba(255, 255, 255, 0.3" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+              <circle fill="rgba(255, 255, 255, 0.3)" cx="4.5" cy="13.5" r="1.5" />
+              <circle fill="rgba(255, 255, 255, 0.3)" cx="12.5" cy="13.5" r="1.5" />
+              <path fill="rgba(255, 255, 255, 0.3)" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
             </svg>
             Корзина: 0
           </a>
@@ -115,7 +115,7 @@
                   Настоящие мужские игрушки
                 </span>
                 <img class="slider-perforator-image" src="img/slider-perforator.jpg" width="620" height="266" alt="Реклама перфораторов">
-                <a class="btn slide-btn" href="#">Открыть каталог</a>
+                <a class="btn slide-btn" href="catalog.html">Открыть каталог</a>
               </div>
               <div class="slider-item slider-drill">
                 <h3 class="slide-title">Дрели</h3>
@@ -123,7 +123,7 @@
                   Соседям на радость!
                 </span>
                 <img class="slider-drill-image" src="img/slider-drill.jpg" width="620" height="266" alt="Реклама дрелей">
-                <a class="btn slide-btn" href="#">Открыть каталог</a>
+                <a class="btn slide-btn" href="catalog.html">Открыть каталог</a>
               </div>
             </div>
           </div>
@@ -319,7 +319,7 @@
           <h2 class="contacts-title">Контакты</h2>
           <p class="contacts-intro">Вы можете забрать товар сами, заехав в наш офис:</p>
           <p class="map">
-            <a href="map.html">
+            <a class="map-link" href="#">
               <img src="img/map.png" width="300" height="158" alt="Офис магазина по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
             </a>
           </p>
@@ -394,11 +394,11 @@
               <form class="contacts-form">
                 <p class="user-name-wrapper">
                   <label class="contacts-label" for="name">Ваше имя</label>
-                  <input class="contacts-input" type="text" name="name" id="name" placeholder="Имя Фамилия">
+                  <input class="contacts-input contacts-login" type="text" name="name" id="name" placeholder="Имя Фамилия">
                 </p>
                 <p class="user-email-wrapper">
                   <label class="contacts-label" for="email">Ваш e-mail</label>
-                  <input class="contacts-input" type="text" name="email" id="email" placeholder="email@example.com">
+                  <input class="contacts-input contacts-password" type="password" name="email" id="email" placeholder="email@example.com">
                 </p>
                 <p class="user-letter-wrapper">
                   <label class="contacts-label" for="letter">Текст письма:</label>
@@ -413,9 +413,20 @@
             <section class="modal modal-map">
               <h2 class="visually-hidden">Как до нас добраться</h2>
               <div>
-                <img src="img/modal-map.jpg" width="940" height="446" alt="Офис магазина по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+                <iframe src="https://yandex.by/map-widget/v1/-/CBFXQGSKCD" width="940" height="446" allowfullscreen></iframe>
+                <img class="map-img" src="img/modal-map.jpg" width="940" height="446" alt="Офис магазина по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
               </div>
               <button class="modal-close">Закрыть</button>
             </section>
+            <section class="modal modal-cart">
+              <h2 class="visually-hidden">Уведомление об успешном добавлении товара в корзину</h2>
+              <p class="notification">Товар добавлен в корзину!</p>
+              <p class="shopping-options">
+                <a class="btn btn-shopping" href="cart.html">Оформить заказ</a>
+                <a class="continue-shopping" href="#">Продолжить покупки</a>
+              </p>
+              <button class="modal-close">Закрыть</button>
+            </section>
+            <script src="js/script.min.js"></script>
           </body>
         </html>

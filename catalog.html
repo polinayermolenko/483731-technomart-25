@@ -5,10 +5,10 @@
     <title>Интернет-магазин «Техномарт»</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-    <!-- шапка сайта -->
+
     <header class="main-header">
       <div class="header-top-wrapper">
         <div class="top-wrapper-container container">
@@ -30,9 +30,9 @@
           </a>
           <a class="cart cart-inner" href="#">
             <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
-              <circle fill="rgba(255, 255, 255, 0.3" cx="4.5" cy="13.5" r="1.5" />
-              <circle fill="rgba(255, 255, 255, 0.3" cx="12.5" cy="13.5" r="1.5" />
-              <path fill="rgba(255, 255, 255, 0.3" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+              <circle fill="rgba(255, 255, 255, 0.3)" cx="4.5" cy="13.5" r="1.5" />
+              <circle fill="rgba(255, 255, 255, 0.3)" cx="12.5" cy="13.5" r="1.5" />
+              <path fill="rgba(255, 255, 255, 0.3)" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
             </svg>
             Корзина: 10
           </a>
@@ -81,7 +81,7 @@
           </nav>
         </div>
       </header>
-      <!-- основная часть сайта -->
+
       <main>
         <div class="container">
           <ul class="breadcrumbs">
@@ -99,7 +99,6 @@
                         C15.058,6.864,15.038,6.548,14.831,6.365z"/>
                       </g>
                     </svg>
-                    <span class="visually-hidden"></span>
                   </a>
                 </li>
                 <li class="breadcrumbs-item">
@@ -114,7 +113,7 @@
               </ul>
               <h1 class="main-title"><a>Перфораторы</a></h1>
               <div class="inner-columns">
-                <section class="filters">
+                <aside class="filters">
                   <h2 class="filter-title">Фильтр:</h2>
                   <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
                     <fieldset class="cost">
@@ -176,7 +175,7 @@
                     </fieldset>
                     <button class="filter-btn" type="submit">Показать</button>
                   </form>
-                </section>
+                </aside>
                 <section class="catalog">
                   <h2 class="visually-hidden">Список перфораторов</h2>
                   <div class="sorting-wrapper">
@@ -396,7 +395,7 @@
               </div>
             </section>
           </main>
-          <!-- подвал сайта -->
+
           <div class="main-footer-wrapper">
             <footer class="main-footer">
               <div class="container">
@@ -459,7 +458,7 @@
                       </div>
                     </footer>
                   </div>
-                  <!-- модальные элементы -->
+
                   <section class="modal modal-cart">
                     <h2 class="visually-hidden">Уведомление об успешном добавлении товара в корзину</h2>
                     <p class="notification">Товар добавлен в корзину!</p>
@@ -469,5 +468,6 @@
                     </p>
                     <button class="modal-close">Закрыть</button>
                   </section>
+                  <script src="js/script.min.js"></script>
                 </body>
               </html>
