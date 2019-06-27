@@ -441,6 +441,7 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   margin-top: 40px;
   margin-bottom: 60px;
@@ -1053,6 +1054,10 @@ input[type="radio"].visually-hidden {
   padding-left: 20px;
 
   font-size: 18px;
+}
+
+.product-link {
+  color: #000000;
 }
 
 .product-model {
@@ -2667,6 +2672,8 @@ input[type="radio"].visually-hidden {
   height: 446px;
   margin-top: -223px;
   margin-left: -470px;
+
+  background-color: #eeeeee;
 }
 
 iframe {
